@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Modal window</title>
+</head>
+
+<body>
+  <button class="show-modal">Git Commands 1</button>
+  <button class="show-modal">Git Commands 2</button>
+  <!-- <button class="show-modal">Git Commands 3</button> -->
+
+  <div class="modal hidden">
+    <button class="close-modal">&times;</button>
+    <h1>💻Common Git Commands</h1>
+    <p>
+      <b>git init:</b> Initializes a new Git repository in your project folder.
+      <br><b>git clone [URL]:</b> Copies an existing remote repository to your local machine.
+      <br><b>git add [file]:</b> Adds a file or changes to the staging area.
+      <br><b>git commit -m "message":</b> Commits the staged changes to the local repository with a message describing
+      the changes.
+      <br><b>git status:</b> Shows the status of changes in your working directory.
+      <br><b>git push:</b> Uploads your local commits to the remote repository.
+      <br><b>git pull:</b> Fetches the latest changes from the remote repository and merges them into your local branch.
+      <br><b>git branch:</b> Lists branches or creates a new branch.
+      <br><b>git checkout [branch]:</b> Switches to another branch.
+      <br><b>git merge [branch]:</b> Merges changes from one branch into another.
+      <br><b>🙏</b>
+    </p>
+  </div>
+  <div class="overlay hidden"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
